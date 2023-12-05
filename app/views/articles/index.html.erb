@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>TECH TRIBE</title>
+</head>
+<body>
+
+
+  <div class="login-container">
+    <h1>Login</h1>
+    <form action="/login" method="post">
+      <div>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" required>
+      </div>
+
+      <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div>
+        <input type="submit" value="Login">
+      </div>
+    </form>
+
+    <div class="signup-link">
+    <p>Don't have an account?</p> 
+    <%= link_to  "Sign Up Here", new_article_path %>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
