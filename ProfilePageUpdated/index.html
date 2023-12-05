@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Profile Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="profile">
+      <h1>Profile</h1>
+      <div class="user-info">
+        <img src="profilepic.png" alt="Profile Picture">
+        <h2>Lauren Johnson</h2>
+        <p>Software Engineer at Apple Inc.</p>
+        <button id="follow-btn">Follow</button>
+    <img src="TechTribe.png" alt="Logo" class="smaller-image">
+    
+  </header>
+
+  <main class="posts">
+    <!-- Posts -->
+    <div class="post">
+    
+      <img src="pc1.jpg" alt="Post 1" class="post-image">
+    </div>
+    <div class="post">
+      <img src="pc2.jpeg" alt="Post 2" class="post-image">
+    </div>
+    <div class="post">
+      <img src="pc3.jpg" alt="Post 3" class="post-image">
+    </div>
+    <div class="post">
+      <img src="pc4.jpg" alt="Post 4" class="post-image">
+    </div>
+    <div class="post">
+      <img src="pc5.jpg" alt="Post 5" class="post-image">
+    </div>
+    <div class= "post">
+      <div class="create-post">
+        <form id="post-form">
+          <div class="form-group">
+            <label for="image-upload">Upload Image:</label>
+            <input type="file" id="image-upload" accept="image/*">
+          </div>
+          <button type="button" onclick="createPost()">Create Post</button>
+        </form>
+      </div>
+
+      <!-- Display area for uploaded posts -->
+      <div id="posts-container"></div>
+
+      </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
