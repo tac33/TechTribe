@@ -1,16 +1,16 @@
 # README
 
-* Ruby version
-    Ruby 3.2.2
+* Ruby version:
+Ruby 3.2.2
 
-* System dependencies
-    SQLite 
-    Rails 7.1.1
-    SQLite 3
-    NodeJS
-    Yarn
+* System dependencies:
+SQLite,  
+Rails 7.1.1, 
+SQLite 3, 
+NodeJS, 
+Yarn
 
-* Documentation
+### Documentation
 
 Home page – (Tyrese)  
 
@@ -27,7 +27,7 @@ Signup/login - (Amaya)
 
 PC specs - (Mason) 
 
-	My part of the TechTribe project is the PC Specs page, it is where users will be able to show pictures of their PC and their setup as well as letting other users comment on it. I made the wireframe in html and it shows where you will be able to enter the different components that you are using, in a functioning app you would be able to have multiple pictures that would either auto scroll or you could swipe, as well as click on the different components linked to see more about them. In the comment section users could also link to other PC build pages to compare them  
+My part of the TechTribe project is the PC Specs page, it is where users will be able to show pictures of their PC and their setup as well as letting other users comment on it. I made the wireframe in html and it shows where you will be able to enter the different components that you are using, in a functioning app you would be able to have multiple pictures that would either auto scroll or you could swipe, as well as click on the different components linked to see more about them. In the comment section users could also link to other PC build pages to compare them  
 
 
 Q&A forums - (Louis) 
