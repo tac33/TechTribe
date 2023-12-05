@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    margin-top: 50px;
+}
+
+.title-2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto;
+}
+
+.search-style {
+    height: 40px;
+    width: 800px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(38, 42, 44); 
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+.search-button {
+    height: 44px;
+    width: 55px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(120, 120, 151); 
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.search-button:active {
+    opacity: 0.7;
+}
+
+.icon {
+    height: 40px;
+    object-fit: cover;
+}
+
+.questions {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 600px; */
+}
+
+.result-container {
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px  70px 70px 70px 70px 70px;
+    align-items: stretch;
+    border-width: 4px;;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+.answer-1,
+.answer-2,
+.answer-3,
+.answer-4,
+.answer-5,
+.answer-6,
+.answer-7,
+.answer-8,
+.answer-9,
+.answer-10 {
+    width: 1100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.answer-1:hover,
+.answer-2:hover,
+.answer-3:hover,
+.answer-4:hover,
+.answer-5:hover,
+.answer-6:hover,
+.answer-7:hover,
+.answer-8:hover,
+.answer-9:hover,
+.answer-10:hover {
+    opacity: 0.8;
+}
+
+.answer-1,
+.answer-3,
+.answer-5,
+.answer-7,
+.answer-9 {
+
+    background-color: rgb(38, 42, 44);
+    color: white;
+}
+
+.answer-2,
+.answer-4,
+.answer-6,
+.answer-8,
+.answer-10 {
+    background-color: white;
+}
+
+.like {
+    margin-left: 20px;
+}
+
+.dislike {
+    margin-left: 10px;
+}
+
+.like,
+.dislike {
+    margin-top: 10px;
+}
+
+.question {
+    width: 1000px;
+    margin-top: 10px;
+}
+
+.page-number {
+    display: flex;
+    margin-top: 30px;
+    background-color: white;
+    height: 35px;
+    width: 200px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back {
+    margin-left: 10px;
+}
+
+.next {
+    margin-right: 10px;
+}
+
+.filter{
+    height: 710px;
+    width: 400px;
+    background-color: whitesmoke;
+    margin-right: 200px;
+}
