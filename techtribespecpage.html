@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Specs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;                     <!–– sets up the look of the wireframe ––>
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;}
+        main {
+            background-color: #fff;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;}
+        
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;}
+        
+
+        section {
+            padding: 20px;}
+        
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;             
+            margin-bottom: 15px;}                                      
+        
+
+        table {
+            width: 100%;
+            border-collapse: collapse;                                  <!–– alligning everything on the page ––>
+            margin-top: 15px;}
+        
+
+        table, th, td {
+            border: 1px solid #ddd;}
+        
+
+        th, td {
+            padding: 10px;
+            text-align: left;}
+        
+
+        th {
+            background-color: #333;
+            color: #fff;}
+        
+
+        h2 {
+            margin-bottom: 10px;}
+        
+
+        .comment {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding-bottom: 10px;}
+        
+
+        .timestamp {
+            color: #888;
+            font-size: 12px;}
+        
+    </style></head><body>
+    <main>
+        <header>
+            <h1>My PC Specs</h1>
+        </header>
+
+        <section>
+            <img src="pc_image.jpg" alt="PC Image"> <!–– save a picture with then name pc_image.jpg ––>
+
+            <table>          <!–– creates the table to display the specs ––>
+                <tr>
+                    <th>Component</th>
+                    <th>Specification</th>
+                </tr>
+                <tr>
+                    <td>Processor</td>
+                    <td>Intel Core i7-9700K</td>
+                </tr>
+                <tr>
+                    <td>Memory</td>
+                    <td>16GB DDR4</td>
+                </tr>
+                <tr>
+                    <td>Graphics Card</td>
+                    <td>NVIDIA GeForce RTX 3070</td>
+                </tr>
+                <tr>
+                    <td>Storage</td>
+                    <td>1TB SSD</td>
+                </tr>
+                <tr>
+                    <td>Motherboard</td>
+                    <td>ASUS ROG Strix Z390-E</td>
+                </tr>
+            </table>
+
+            <h2>Comments</h2>
+            <div class="comment">
+                <p>Computerlord3: Nice setup!</p>
+                <p class="timestamp">Posted on 2023-01-01 12:34 PM</p>    <!–– adds a comment section  ––>
+            </div>
+</section></main></body></html>
